@@ -4,7 +4,7 @@ import React from 'react';
 
 const Banner = () => {
     return (
-        <div className="banner">
+        <div style={{ height: '100vh' }} className="banner">
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>
@@ -36,8 +36,8 @@ const Banner = () => {
                 />
                 <br />
                 <div >
-                    <button className="banner-btn glow-on-hover"><i className="fas fa-envelope"> Contact Me!</i></button>
-                    <button className="banner-btn glow-on-hover"><i className="fas fa-cloud-download-alt"> Get Resume</i></button>
+                    <button style={{ border: '2px solid gold' }} className="banner-btn glow-on-hover"><i className="fas fa-envelope"> Contact Me!</i></button>
+                    <button style={{ border: '2px solid gold' }} className="banner-btn glow-on-hover"><i className="fas fa-cloud-download-alt"> Get Resume</i></button>
                 </div>
             </div>
         </div>

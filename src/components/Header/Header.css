@@ -1,3 +1,6 @@
+.header{
+  background-image: linear-gradient(to right, #171717, #1f1f1f, #272727, #2f2f2f, #383737, #383737, #383737, #383737, #2f2f2f, #272727, #1f1f1f, #171717);
+}
 .navbar {
     /* background-color: #1f5156; */
     /* background-image: linear-gradient(to right, #212020, #353434, #4a4848, #605e5e, #777575, #777575, #777575, #777575, #605e5e, #4a4848, #353434, #212020); */
@@ -12,7 +15,7 @@
   }
   
   .nav-container {
-      border: 2px solid red;
+    
     display: flex;
     justify-content: center;
     align-items: center;

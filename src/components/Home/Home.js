@@ -2,11 +2,18 @@ import './Home.css';
 
 import React from 'react';
 import Banner from '../Banner/Banner';
-
+import About from '../About/About';
+import Header from '../Header/Header';
+import Skill from '../Skill/Skill';
 const Home = () => {
     return (
-        <div>
+        <div >
+
             <Banner></Banner>
+            <About></About>
+            <Skill></Skill>
+
+
         </div>
     );
 };

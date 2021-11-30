@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    
     background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
     
   }
@@ -9,7 +9,7 @@ body {
   margin: 5px;
   padding: 5px;
   font-size: 20px;
-  
+  border: 2px solid gold;
 }
 
 /* copy css for button glow effect start something*/
