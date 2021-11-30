@@ -1,0 +1,26 @@
+.about-section{
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+.about-component{
+    
+}
+.orange-text{
+    color: gold;
+}
+.about-image{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    
+    text-align: center;
+    margin-top: 5px;
+    color: white;
+}
+@media (max-width:700px) {
+    .about-section{
+      display: flex;
+      flex-direction: column-reverse; 
+    }
+  }

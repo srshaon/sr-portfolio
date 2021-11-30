@@ -1,0 +1,22 @@
+.skill-container{
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}
+
+.gray-background{
+    background-color: rgb(44, 44, 44);
+    padding-top: 3px;
+    padding-bottom: 5px;
+}
+.skill-set-div{
+    border: 2px solid red;
+    width: 60%;
+    display: flex;
+    flex-direction: column;
+}
+.skill-details-div{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    grid-gap: 10px;
+}
