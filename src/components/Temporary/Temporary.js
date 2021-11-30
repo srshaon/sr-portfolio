@@ -24,7 +24,7 @@ const Temporary = () => {
                     shoot a hi! I'll do the rest for you. cheers!!
                 </p>
 
-                <div style={{ border: '2px solid gold' }} className="glow-on-hover">
+                <div style={{ border: '2px solid red' }} className="glow-on-hover">
                     <a style={{ color: 'white', fontSize: '20px', textDecoration: 'none' }} className="xyz" target="blank"
                         href="https://www.linkedin.com/in/shohanur-rahman-shaun-17b19a217/">Hire Me
                     </a>
