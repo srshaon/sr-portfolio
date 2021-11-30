@@ -7,7 +7,7 @@ const About = () => {
         <div className="about-component">
             <div id="about" style={{ color: 'white', margin: '10px' }} className="about-section">
                 <div className="">
-                    <span style={{ backgroundColor: 'black' }}>About Me</span>
+                    <h6 >About Me</h6>
                     <h2 className="orange-text gray-background">Part-Time Coder, Full-Time Learner!</h2>
                     <p className="">
                         Life is all about learning and colouring. Learning through failures;
