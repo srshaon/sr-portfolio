@@ -22,7 +22,7 @@ const Contact = () => {
         <div className="mt-5 py-5" id="contact">
             <div className="contact py-5">
 
-                <div style={{ color: "white" }}>
+                <div data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="100" style={{ color: "white" }}>
                     <h4 className="gray-background mt-4 mx-2 px-2">Feel Free To Contact Me <i className="fas fa-handshake"></i></h4>
                     <div className="gray-background mx-2 px-2">
                         <h6><i className="fas fa-envelope-open-text"> Email:</i><strong className="orange-text"> srshaon.dev@gmail.com</strong></h6>
@@ -55,7 +55,7 @@ const Contact = () => {
                     <h4 className="gray-background mt-4 mx-2 px-2">Shohanur Rahman Shaon</h4>
                     <p className="gray-background mt-4 mx-2 px-2"><small>Copyright © 2021</small></p>
                 </div>
-                <div className="container">
+                <div data-aos="zoom-in-left" data-aos-duration="2000" data-aos-delay="100" className="container">
 
                     <h4 className="gray-background text-center mt-4 mx-2 px-2" style={{ color: "white", marginTop: '2px' }}>Send Me A Message</h4>
                     <form className="px-2" ref={form} onSubmit={sendEmail} id="contactForm" >

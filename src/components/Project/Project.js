@@ -7,7 +7,7 @@ const Project = (props) => {
     console.log(props.project)
     const { id, name, img1, img2, img3, img4, techologies, livelink, gitrepo, features } = props.project;
     return (
-        <div className="mb-5 mt-3 ab boxShadow">
+        <div data-aos="zoom-in-up" data-aos-duration="2000" data-aos-delay="100" className="mb-5 mt-3 ab boxShadow">
             <div className="">
                 <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                     <div className="carousel-inner">
