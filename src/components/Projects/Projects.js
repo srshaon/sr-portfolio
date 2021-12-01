@@ -12,7 +12,7 @@ const Projects = () => {
     }, [])
     // console.log(projects[1]?.img2)
     return (
-        <div id="project" className="projects-container">
+        <div id="project" className="projects-container  my-5">
             <h5 style={{ textAlign: 'center' }} className="orange-text gray-background">My Recent Works:</h5>
 
             <div className="projects-div a">

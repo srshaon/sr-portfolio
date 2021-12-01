@@ -71,7 +71,7 @@ const Header = () => {
                         </li>
                         <li className="nav-item">
                             <NavLink
-                                exact
+
                                 to="/blog"
                                 activeClassName="active"
                                 className="nav-links"
@@ -81,16 +81,17 @@ const Header = () => {
                             </NavLink>
                         </li>
                         <li className="nav-item">
-                            <NavLink
-                                exact
-                                to="/contact"
+                            <NavHashLink
+                                as={HashLink}
+                                to="/home#contact"
                                 activeClassName="active"
                                 className="nav-links"
                                 onClick={handleClick}
                             >
-                                Contact Us
-                            </NavLink>
+                                Contact
+                            </NavHashLink>
                         </li>
+
 
                     </ul>
 
