@@ -3,6 +3,13 @@
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px;
 }
+.details-btn{
+    background-color: orange;
+    color: black;
+    border-radius: 10px;
+    padding: 2px 10px;
+    margin-left: 4px;
+}
 /* .color-text{
 color: rgb(250, 199, 31);
 } */

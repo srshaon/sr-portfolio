@@ -1,10 +1,11 @@
 import './Project.css';
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 
 const Project = (props) => {
     console.log(props.project)
-    const { name, img1, img2, img3, img4, techologies, livelink, gitrepo, features } = props.project;
+    const { id, name, img1, img2, img3, img4, techologies, livelink, gitrepo, features } = props.project;
     return (
         <div>
             <div className="ab">
@@ -40,7 +41,11 @@ const Project = (props) => {
                         href={gitrepo}>Git-Repo
                     </a>
                 </span>
-                <h6>  <span className="orange-text">Features: </span>{features.slice(0, 100)}...</h6>
+                <h6>  <span className="orange-text">Features: </span>{features.slice(0, 100)} . . .
+
+                    <Link style={{ textDecoration: "none" }} className="link" to={`details/${id}`}> <button className="details-btn"><strong>More</strong></button>
+                    </Link>
+                </h6>
             </div>
         </div>
     );

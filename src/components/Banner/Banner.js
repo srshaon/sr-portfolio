@@ -1,6 +1,8 @@
 import './Banner.css';
 import TypeAnimation from 'react-type-animation';
 import React from 'react';
+import { Link } from 'react-router-dom';
+import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
     return (
@@ -36,8 +38,12 @@ const Banner = () => {
                 />
                 <br />
                 <div >
-                    <button style={{ border: '2px solid gold' }} className="banner-btn glow-on-hover"><i className="fas fa-envelope"> Contact Me!</i></button>
-                    <button style={{ border: '2px solid gold' }} className="banner-btn glow-on-hover"><i className="fas fa-cloud-download-alt"> Get Resume</i></button>
+                    <HashLink to='/home#contact'>
+                        <button style={{ border: '2px solid gold' }} className="banner-btn glow-on-hover"><i className="fas fa-envelope"> Contact Me!</i></button>
+                    </HashLink>
+                    <a href="https://drive.google.com/file/d/1vc5YqITbia9coBYtHyG8hijs6S3lqrvB/view?usp=sharing" target="blank">
+                        <button style={{ border: '2px solid gold' }} className="banner-btn glow-on-hover"><i className="fas fa-cloud-download-alt"> Get Resume</i></button>
+                    </a>
                 </div>
             </div>
         </div>
