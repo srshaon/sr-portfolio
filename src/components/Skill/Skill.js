@@ -12,7 +12,7 @@ const Skill = () => {
 
                 <h5 className="orange-text gray-background" style={{ textAlign: 'center' }}>Comfortable With</h5>
 
-                <div style={{ border: '2px solid red' }} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
 
                     <div className="skill-set-div">
                         <h6 style={{ textAlign: 'center' }} >HTML 5</h6>
