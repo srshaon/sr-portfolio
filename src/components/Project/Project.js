@@ -44,12 +44,14 @@ const Project = (props) => {
                     </span>
                 </div>
 
-                <div style={{ marginTop: '10px' }}>
-                    <h6>  <span className="">Features: </span>{features.slice(0, 100)} . . .
-
-                        <Link style={{ textDecoration: "none" }} className="link" to={`details/${id}`}> <button className="details-btn"><strong>More</strong></button>
+                <div className="features-div h-100" style={{ marginTop: '10px' }}>
+                    <div className="xxx" style={{ height: '70px' }}>
+                        <h6 >Features: {features.slice(0, 100)} . . .</h6>
+                    </div>
+                    <div style={{ textAlign: 'center' }}>
+                        <Link style={{ textDecoration: "none" }} className="link" to={`details/${id}`}> <button className="details-btn"><strong>Read More</strong></button>
                         </Link>
-                    </h6>
+                    </div>
                 </div>
             </div>
         </div>
