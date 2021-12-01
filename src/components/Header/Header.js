@@ -57,6 +57,19 @@ const Header = () => {
                             </NavHashLink>
                         </li>
                         <li className="nav-item">
+                            <NavHashLink
+                                as={HashLink}
+
+
+                                to="/home#project"
+                                activeClassName="active"
+                                className="nav-links"
+                                onClick={handleClick}
+                            >
+                                Projects
+                            </NavHashLink>
+                        </li>
+                        <li className="nav-item">
                             <NavLink
                                 exact
                                 to="/blog"

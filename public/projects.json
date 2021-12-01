@@ -1,0 +1,38 @@
+[
+    {
+        "id": "1",
+        "name": "Coding Lights",
+        "img1": "https://i.ibb.co/W5JsF84/1-0.png",
+        "img2": "https://i.ibb.co/7WrfDmn/1-1.png",
+        "img3": "https://i.ibb.co/JCjzjXv/1-2.png",
+        "img4": "https://i.ibb.co/T4NMvmh/1-3.png",
+        "techologies": "React JS, Node JS, Express JS, MongoDb, Heroku, Firebase",
+        "features": "A Complete MERN-stack, fully functional project with separate front-end && back-end repo. Hosted on Firebase, the project features both google and email/password-based authentication. Users will need to sign up with unique email before they can order any products. Admin functionalities like managing orders, managing products, making someone admin etc. included. Users and Admins will get different dashboards and functionalities according to their roles. Server hosted on Heroku.",
+        "livelink": "https://coding-lights-ceab7.web.app/",
+        "gitrepo": "https://github.com/srshaon/Coding-Lights-Client"
+    },
+    {
+        "id": "2",
+        "name": "Frame Travellers",
+        "img1": "https://i.ibb.co/wRGj3MB/2-0.png",
+        "img2": "https://i.ibb.co/j45xZyK/2-1.png",
+        "img3": "https://i.ibb.co/MBx7pg6/2-2.png",
+        "img4": "https://i.ibb.co/CWHwKtX/2-3.png",
+        "techologies": "React JS, Node JS, Express JS, MongoDb, Heroku, Firebase",
+        "features": "A fully functional Tour Management MERN-stack project with separate front-end && back-end repo. Hosted on Firebase, the project features both google and email/password-based authentication. Users will need to sign up with unique email before they can order any products. Admin functionalities like managing orders, managing products, making someone admin etc. included. Users and Admins will get different dashboards and functionalities according to their roles. Server hosted on Heroku.",
+        "livelink": "https://frame-travellers.web.app/",
+        "gitrepo": "https://github.com/srshaon/Frame-Travellers-Client"
+    },
+    {
+        "id": "3",
+        "name": "Let's Dance",
+        "img1": "https://i.ibb.co/L8K8Zys/3-0.png",
+        "img2": "https://i.ibb.co/9NC6DY2/3-1.png",
+        "img3": "https://i.ibb.co/qpjw8Vt/3-2.png",
+        "img4": "https://i.ibb.co/wKBZcjd/3-3.png",
+        "techologies": "React JS, React Router, REST API, Firebase, Bootstrap 5",
+        "features": "A Front-End Only project on dancing institute. Made by React JS and React-Router, this is a Single-Page-Application(SPA) with multiple routes. Users will have the advantage to navigate through different route without reloading or refreshing even for a single time. Custom CSS used along with Bootstrap 5 to make it fully functional.",
+        "livelink": "https://dance-institute-ph-b4.netlify.app/",
+        "gitrepo": "https://github.com/srshaon/Dance-Institute"
+    }
+]
