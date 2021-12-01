@@ -27,57 +27,11 @@ color: white;
 .xxx{
     text-align: left;
 }
-/* .color-text{
-color: rgb(250, 199, 31);
-} */
-/*
-
-<div className="a">
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={img1} className="w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={img2} className="w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={img3} className="w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={img4} className="w-100" alt="..." />
-                    </div>
-
-                </div>
-            </div>
-        </div>
-*/
-
-/* 
-<div className="ab">
-            <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
-                <div className="carousel-inner">
-                    <div className="carousel-item active">
-                        <img src={img1} className="w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={img2} className="w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={img3} className="w-100" alt="..." />
-                    </div>
-                    <div className="carousel-item">
-                        <img src={img4} className="w-100" alt="..." />
-                    </div>
-
-                </div>
-            </div>
-            <div>
-                <h5>Project Name: {name}</h5>
-                <h6>Technologies Used: {techologies} etc.</h6>
-                <span>Live-Link: {livelink}</span> <span>Git-Link: {gitrepo}</span>
-                <h6>Features: {features.slice(0, 100)}...</h6>
-            </div>
-        </div>
-
-*/
+@media (max-width:700px) {
+    .a{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 10px;
+        
+    }
+  }

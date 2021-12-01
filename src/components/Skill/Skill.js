@@ -12,7 +12,7 @@ const Skill = () => {
 
                 <h5 className="orange-text gray-background" style={{ textAlign: 'center' }}>Comfortable With</h5>
 
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
+                <div style={{ border: '2px solid red' }} data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
 
                     <div className="skill-set-div">
                         <h6 style={{ textAlign: 'center' }} >HTML 5</h6>
@@ -85,9 +85,17 @@ const Skill = () => {
                         <h6 style={{ textAlign: 'center' }} >MSSQL Server</h6>
                         <img className="img-fluid h-100" src="https://i.ibb.co/qxQhBGG/rsz-1images.jpg" alt="" />
                     </div>
+                    <div className="skill-set-div">
+                        <h6 style={{ textAlign: 'center' }} >React Hook Form</h6>
+                        <img className="img-fluid h-100" src="https://i.ibb.co/YhT6XzV/rsz-download-5.jpg" alt="" />
+                    </div>
+                    <div className="skill-set-div">
+                        <h6 style={{ textAlign: 'center' }} >JSON</h6>
+                        <img className="img-fluid" src="https://i.ibb.co/0YV34Cd/rsz-download-6.jpg" alt="" />
+                    </div>
 
                 </div>
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
+                {/* <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
                     <div className="skill-set-div">
                         <h6 style={{ textAlign: 'center' }} >React Hook Form</h6>
                         <img className="img-fluid h-100" src="https://i.ibb.co/YhT6XzV/rsz-download-5.jpg" alt="" />
@@ -98,7 +106,7 @@ const Skill = () => {
                     </div>
 
 
-                </div>
+                </div> */}
             </div>
             <div>
                 <h5 className="orange-text gray-background" style={{ textAlign: 'center' }}>Tools</h5>
@@ -123,9 +131,6 @@ const Skill = () => {
                         <h6 style={{ textAlign: 'center' }} >Git</h6>
                         <img className="img-fluid h-100" src="https://i.ibb.co/V3vTVs6/rsz-git-iconsvg.jpg" alt="" />
                     </div>
-
-                </div>
-                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
                     <div className="skill-set-div">
                         <h6 style={{ textAlign: 'center' }} >Github</h6>
                         <img className="img-fluid h-100" src="https://i.ibb.co/3MzqWmS/rsz-octocat.jpg" alt="" />
@@ -134,6 +139,16 @@ const Skill = () => {
                         <h6 style={{ textAlign: 'center' }} >Visual Studio</h6>
                         <img className="img-fluid" src="https://i.ibb.co/FhdQD63/rsz-ff0007b52b67bbc5f86b88769e9c1b67.jpg" alt="" />
                     </div>
+                </div>
+                <div data-aos="fade-up" data-aos-duration="2000" data-aos-delay="100" className="skill-details-div">
+                    {/* <div className="skill-set-div">
+                        <h6 style={{ textAlign: 'center' }} >Github</h6>
+                        <img className="img-fluid h-100" src="https://i.ibb.co/3MzqWmS/rsz-octocat.jpg" alt="" />
+                    </div>
+                    <div className="skill-set-div">
+                        <h6 style={{ textAlign: 'center' }} >Visual Studio</h6>
+                        <img className="img-fluid" src="https://i.ibb.co/FhdQD63/rsz-ff0007b52b67bbc5f86b88769e9c1b67.jpg" alt="" />
+                    </div> */}
 
 
                 </div>

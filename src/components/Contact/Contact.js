@@ -19,11 +19,12 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div className="mt-5 py-5" id="contact">
-            <div className="contact py-5">
+        <div className="py-5" id="contact">
+            <h6 className="orange-text gray-background text-center py-2">Let's Get In Touch!</h6>
+            <div className="contact">
 
-                <div data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="100" style={{ color: "white" }}>
-                    <h4 className="gray-background mt-4 mx-2 px-2">Feel Free To Contact Me <i className="fas fa-handshake"></i></h4>
+                <div className="text-adjustment" data-aos="zoom-in-right" data-aos-duration="2000" data-aos-delay="100" style={{ color: "white" }}>
+                    <h4 className="gray-background  mt-4 mx-2 px-2">Feel Free To Contact Me <i className="fas fa-handshake"></i></h4>
                     <div className="gray-background mx-2 px-2">
                         <h6><i className="fas fa-envelope-open-text"> Email:</i><strong className="orange-text"> srshaon.dev@gmail.com</strong></h6>
                     </div>

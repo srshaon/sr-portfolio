@@ -1,6 +1,7 @@
 .about-section{
     display: grid;
     grid-template-columns: 60% 40%;
+    
 }
 .about-component{
     
@@ -22,5 +23,6 @@
     .about-section{
       display: flex;
       flex-direction: column-reverse; 
+      margin: 0;
     }
   }
