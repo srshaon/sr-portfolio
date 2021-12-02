@@ -10,6 +10,9 @@
     padding-bottom: 5px;
     
 }
+body{
+    overflow-x: hidden;
+}
 .skill-set-div{
     
     width: 70%;
@@ -30,6 +33,7 @@
         grid-template-columns: repeat(3,1fr);
         
     }
+    
     .skill-set-div{
         width: 100%;
     }

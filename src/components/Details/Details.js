@@ -13,7 +13,7 @@ const Details = () => {
     }, []);
     const Project = projects.find(project => (project.id == projectId))
     return (
-        <div>
+        <div style={{ overflowX: 'hidden' }}>
             <h1>{Project?.id}</h1>
         </div>
     );

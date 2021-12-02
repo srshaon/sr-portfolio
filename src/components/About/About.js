@@ -4,7 +4,7 @@ import React from 'react';
 
 const About = () => {
     return (
-        <div className="about-component">
+        <div style={{ overflowX: 'hidden' }} className="about-component">
             <div id="about" style={{ color: 'white', margin: '10px' }} className="about-section">
                 <div className="">
                     <h6 >About Me</h6>

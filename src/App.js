@@ -8,7 +8,7 @@ import Temporary from './components/Temporary/Temporary';
 
 function App() {
   return (
-    <div >
+    <div style={{ overflowX: 'hidden' }}>
       <BrowserRouter>
         <Header></Header>
         <Switch>

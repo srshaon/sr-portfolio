@@ -19,7 +19,7 @@ const Contact = () => {
         e.target.reset();
     };
     return (
-        <div className="py-5" id="contact">
+        <div style={{ overflowX: 'hidden' }} className="py-5" id="contact">
             <h6 className="orange-text gray-background text-center py-2">Let's Get In Touch!</h6>
             <div className="contact">
 

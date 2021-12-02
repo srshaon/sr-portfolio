@@ -9,7 +9,7 @@ import Projects from '../Projects/Projects';
 import Contact from '../Contact/Contact';
 const Home = () => {
     return (
-        <div >
+        <div style={{ overflowX: 'hidden' }} >
 
             <Banner></Banner>
             <About></About>

@@ -6,7 +6,7 @@ import { HashLink } from 'react-router-hash-link';
 
 const Banner = () => {
     return (
-        <div style={{ height: '100vh' }} className="banner">
+        <div style={{ height: '100vh', overflow: 'hidden' }} className="banner">
             <div id="stars"></div>
             <div id="stars2"></div>
             <div id="stars3"></div>

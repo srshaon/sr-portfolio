@@ -8,7 +8,7 @@ const Temporary = () => {
     const handleClick = () => setClick(!click);
     return (
 
-        <div>
+        <div style={{ overflowX: 'hidden' }}>
 
         </div>
 

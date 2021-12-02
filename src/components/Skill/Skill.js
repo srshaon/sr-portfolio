@@ -5,7 +5,7 @@ import ScrollAnimation from 'react-animate-on-scroll';
 
 const Skill = () => {
     return (
-        <div id="skill" className="skill-container">
+        <div style={{ overflow: 'hidden' }} id="skill" className="skill-container">
             <h6>My Wide Range of Skills Are:</h6>
             {/* //animate__bounce animate__backInUp  animate__backInUp animate__zoomIn animate__slideInDown animate__flip*/}
             <div>
