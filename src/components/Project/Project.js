@@ -29,7 +29,7 @@ const Project = (props) => {
             </div>
             <div className="mt-2 project-details">
                 <h6 >Project Name: <span className="orange-text">{name}</span> </h6>
-                <h6> <span className="">Technologies Used: </span> {techologies} etc. </h6>
+                <h6 className="orange-text" style={{ display: 'inline' }}> Technologies Used: </h6> <span>{techologies} etc. </span>
                 <div>
                     <span>
                         <a style={{ fontSize: '20px', textDecoration: 'none', marginRight: '5px' }} className="orange-text" target="blank"
@@ -46,7 +46,7 @@ const Project = (props) => {
 
                 <div className="features-div h-100" style={{ marginTop: '10px' }}>
                     <div className="xxx" style={{ height: '70px' }}>
-                        <h6 >Features: {features.slice(0, 100)} . . .</h6>
+                        <h6 className="orange-text" style={{ display: 'inline' }}>Features: </h6> <span >{features.slice(0, 100)}</span> . . .
                     </div>
                     <div style={{ textAlign: 'center' }}>
                         <Link style={{ textDecoration: "none" }} className="link" to={`details/${id}`}> <button className="details-btn"><strong>Read More</strong></button>
