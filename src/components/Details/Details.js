@@ -61,6 +61,9 @@ const Details = () => {
                         <div id="carouselExampleSlidesOnly" className="carousel slide" data-bs-ride="carousel">
                             <div className="carousel-inner">
                                 <div className="carousel-item active">
+                                    <img src={Project?.mockup1} className="img-fluid d-block " alt="..." />
+                                </div>
+                                <div className="carousel-item">
                                     <img src={Project?.img1} className="img-fluid d-block " alt="..." />
                                 </div>
                                 <div className="carousel-item">
