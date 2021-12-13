@@ -4,7 +4,9 @@ import './App.css';
 import Details from './components/Details/Details';
 import Header from './components/Header/Header';
 import Home from './components/Home/Home';
-import Temporary from './components/Temporary/Temporary';
+
+import Blog from './components/Blog/Blog';
+import Footer from './components/Footer/Footer';
 
 function App() {
   return (
@@ -18,13 +20,15 @@ function App() {
           <Route path='/home'>
             <Home></Home>
           </Route>
-          <Route path='/abc'>
-            <Temporary></Temporary>
+          <Route path='/blog'>
+            <Blog></Blog>
           </Route>
+
           <Route path="/details/:projectId">
             <Details></Details>
           </Route>
         </Switch>
+        <Footer></Footer>
       </BrowserRouter>
     </div>
   );
